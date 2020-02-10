@@ -1,0 +1,73 @@
+body{
+   background-image: -webkit-image-set(url(bank26.github.io/Taj_Mahal.jpg) 1x)
+}
+
+
+.Navigation{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	position: left;
+	list-style: none;
+}
+
+.Navigation li 	{
+	height: 30px;
+	width: 290px;
+	float: left;
+	list-style: none;
+	font:15px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	border: 1px solid rgb(181, 187, 255);
+	box-shadow: 0 1px 0 rgb(0, 0, 0) inset, 0 2px 3px rgb(0, 0, 0);
+	border-radius: 0px;
+	margin-left:0px;
+	background-color: #bbe2cb
+}
+
+.Navigation a{						
+	padding: 10px 75px;
+	text-decoration: none; 
+	color: rgb(43, 47, 75);
+	text-shadow: 0 1px #000000;
+	display: block
+	;
+}
+.Navigation li ul{
+	display: none;
+	height: none;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+ul {
+   background: none;
+   text-align: left;
+   display: inline;
+   margin: 0;
+   padding: 15px 4px 17px 0;
+   list-style: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+ }
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+
+
+.Navigation li:hover, a:hover {
+	 background: rgb(219, 251, 255);
+} 
+
+h1 {
+	font: 35px "Aharoni", "Century Gothic";
+}
+
+p {
+	font: 20px "Century Gothic"
+	
+}
