@@ -1,5 +1,11 @@
 body{
-   background-image: -webkit-image-set(url(bank26.github.io/Taj_Mahal.jpg) 1x)
+    display: block;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    background-image: -webkit-image-set(url(muslib.github.io/background.jpg) 1x)  
+
 }
 
 
